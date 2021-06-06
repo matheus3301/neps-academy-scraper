@@ -1,0 +1,6 @@
+NEPS_URL = 'https://neps.academy'
+ENGLISH_BUTTON = '/html/body/div/div/div/div[2]/div/div/a/div[2]/div'
+LOGIN_PAGE_BUTTON = '//*[@id="app"]/div/div/div/div[1]/div/header/div/div/div[3]/div/div/nav/ul/li[6]/button'
+EMAIL_INPUT = '/html/body/div/div/div/div[3]/div/div/div/form/div[1]/div/div[1]/div/input'
+PASSWORD_INPUT = '/html/body/div/div/div/div[3]/div/div/div/form/div[2]/div/div[1]/div[1]/input'
+LOGIN_MODAL_BUTTON = '//*[@id="app"]/div[3]/div/div/div/form/div[3]/button'

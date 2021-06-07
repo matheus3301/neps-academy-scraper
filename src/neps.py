@@ -4,8 +4,6 @@ from time import sleep
 
 
 class Neps:
-    is_logged = False
-
     def __init__(self, browser: webdriver.Chrome):
         self.__browser = browser
         self.__browser.get(constants.NEPS_URL)
@@ -19,9 +17,6 @@ class Neps:
             pass
 
     def login(self, email, password) -> bool:
-        if(self.is_logged):
-            return True
-
         self.__browser.find_element_by_xpath(
             constants.LOGIN_PAGE_BUTTON).click()
 
